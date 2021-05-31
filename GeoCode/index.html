@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cosmo/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>GeoCode</title>
+  </head>
+  <body>
+    <div class="container text-center">
+      <div class="part-1 mb-5">
+        <div class="title">
+          <h1 class="mt-4 display-1">GeoCode</h1>
+          <h4>Search for your desire local name</h4>
+        </div>
+        <form id="form">
+          <div class="form-group">
+            <input type="text" class="form-control mt-5" placeholder="Enter your location" id="search-input">
+          </div>
+          <button type="submit" class="btn btn-outline-dark btn-lg" id="display-btn">Display</button>
+        </form>
+        <div class="display-div"></div>
+      </div>
+      <footer>
+        <p>&copy; 2021 GeoCode, credit <a href="https://github.com/juliohsu" target="_blank">Julio Hsu</a></p>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
