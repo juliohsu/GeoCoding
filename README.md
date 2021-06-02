@@ -5,13 +5,13 @@ This is a website which the user can insert the location, that he/she want to kn
 PS: To run the webiste normaly, you have two options:
 
 
-1- Deactive your website protection
+Deactive your website protection
 
 
 Or
 
 
-2- Download this repository and run it locally
+Download this repository and run it locally
 
 
 <a href="https://geo-coding.vercel.app/">Check out here!</a>
