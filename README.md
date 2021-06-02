@@ -8,6 +8,9 @@ PS: To run the webiste normaly, you have two options:
 1- Deactive your website protection
 
 
+Or
+
+
 2- Download this repository and run it locally
 
 
