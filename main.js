@@ -6,7 +6,7 @@ function search(e) {
   var location = document.querySelector("#search-input").value;
 
   axios
-    .get("https://api.positionstack.com/v1/forward", {
+    .get("http://api.positionstack.com/v1/forward", {
       params: {
         access_key: "9480b94c7c88a79c5c4e7eb2fb99f0ef",
         query: location,
