@@ -4,6 +4,8 @@ This is a website which the user can insert the location, that he/she want to kn
 
 PS: To run the webiste normaly, you have two options:
 1- Deactive your website protection
+
+
 2- Download this repository and run it locally
 
 
